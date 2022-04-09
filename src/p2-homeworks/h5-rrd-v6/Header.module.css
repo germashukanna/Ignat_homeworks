@@ -1,0 +1,28 @@
+.nav {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #310131;
+}
+
+.nav:hover {
+    color: #d8a7ff;
+}
+
+.block{
+    width: 21px;
+    height: 21px;
+        background: #d8a7ff;
+    border-radius: 50px;
+}
+
+.header {
+    display: flex;
+    width: 280px;
+    transition-duration: 580ms;
+    transform: translate(-220px);
+}
+.header:hover{
+    transition-duration: 580ms;
+    transform: translate(0);
+}
+
