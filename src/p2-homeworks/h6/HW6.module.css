@@ -1,22 +1,9 @@
-
-.affairDiv {
-    display: flex;
-
-    align-items: center;
-}
-
-.affairDiv span {
-    width: 150px;
-    padding: 5px;
-    border-bottom: 1px solid #000000;
-}
-
-.affairItem {
+.btn {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    padding: 0px 5px;
-    margin: 2px 5px;
+    padding: 10px 30px;
+    margin: 0 10px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 600;
     line-height: 30px;
@@ -30,7 +17,7 @@
     cursor: pointer;
     transition: 1.5s;
 }
-.affairItem:before, .affairItem:after {
+.btn:before, .btn:after {
     content: "";
     position: absolute;
     height: 200px;
@@ -43,17 +30,17 @@
     z-index: -1;
     transform: scale(0);
 }
-.affairItem:before {
+.btn:before {
     background: #ffeede;
     transition: .8s ease-out;
 }
-.affairItem:after {
+.btn:after {
     transition: .4s ease-in .3s;
 }
-.affairItem:hover {
+.btn:hover {
     color: #532831;
 }
-.affairItem:hover:before, .affairItem:hover:after {
+.btn:hover:before, .btn:hover:after {
     opacity: 1;
     transform: scale(4);
 }
