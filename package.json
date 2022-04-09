@@ -2,6 +2,7 @@
   "name": "homeworks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://germashukanna.github.io/Ignat_homeworks",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -19,7 +20,6 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "https://germashukanna.github.io/Ignat_homeworks",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
