@@ -1,0 +1,42 @@
+.radio input {
+    position: absolute;
+    opacity: 0;
+    сursor: pointer;
+
+}
+
+.radio label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    user-select: none;
+    margin-top: 5px;
+}
+
+.radio span {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: #d8a7ff;
+    border-radius: 50%;
+}
+
+.radio label input:checked ~ span {
+    background-color: #310131;
+}
+
+.radio span:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio label input:checked ~ span:after {
+    display: block;
+}
+
