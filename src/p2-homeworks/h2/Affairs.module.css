@@ -1,0 +1,46 @@
+.alt {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: #310131;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #f5b08f;
+    border-width: 0;
+    box-shadow: 5px 5px 0 #532831;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.alt:before, .alt:after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    left: -50%;
+    margin-top: -100px;
+    top: 50%;
+    width: 150px;
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+}
+.alt:before {
+    background: #ffeede;
+    transition: .8s ease-out;
+}
+.alt:after {
+    transition: .4s ease-in .3s;
+}
+.alt:hover {
+    color: #532831;
+}
+.alt:hover:before, .alt:hover:after {
+    opacity: 1;
+    transform: scale(4);
+}
