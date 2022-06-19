@@ -1,0 +1,15 @@
+.superInput {
+    margin: 10px;
+    background-color: #d8a7ff;
+    border: 3px solid slategray;
+    font-style: oblique;
+}
+
+.errorInput {
+    border-bottom: 3px solid slategrey;
+    background: black;
+}
+
+.error {
+    color: red;
+}

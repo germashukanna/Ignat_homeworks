@@ -1,0 +1,18 @@
+.checkbox {
+/*appearance: none;*/
+    width: 15px;
+    height: 15px;
+    background: #d8a7ff;
+}
+
+.spanClassName {
+
+}
+
+.checkbox:checked{
+    background-color: darkslateblue;
+}
+.checkbox:focus{
+    outline: rosybrown solid 2px;
+}
+

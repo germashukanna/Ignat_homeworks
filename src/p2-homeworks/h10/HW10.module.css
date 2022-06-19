@@ -1,0 +1,60 @@
+.btn {
+    overflow: hidden;
+    z-index: 1;
+    padding: 0px 20px;
+    margin: 5px 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: #310131;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #f5b08f;
+    border-width: 0;
+    box-shadow: 5px 5px 0 #532831;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.btn:before, .btn:after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    left: -50%;
+    margin-top: -100px;
+    top: 50%;
+    width: 150px;
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.btn:before {
+    background: #ffeede;
+    transition: .8s ease-out;
+}
+
+.btn:after {
+    transition: .4s ease-in .3s;
+}
+
+.btn:hover {
+    color: #532831;
+}
+
+.btn:hover:before, .btn:hover:after {
+    opacity: 1;
+    transform: scale(4);
+}
+
+.spinner {
+    position: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+
+}

@@ -1,0 +1,34 @@
+.default {
+    margin: 10px;
+}
+
+.red {
+    background: crimson;
+}
+
+.button {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button::after {
+    display: block;
+    content: "";
+    position: absolute;
+}
+
+.button:hover::before{
+    display: block;
+    content: "";
+    position: absolute;
+}
+
+.button:focus{
+    outline: slategray solid 2px;
+}
+
+.button:active{
+    background: #d8a7ff;
+}
