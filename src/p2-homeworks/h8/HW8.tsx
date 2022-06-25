@@ -52,7 +52,6 @@ function HW8() {
                 <div><SuperButton className={s.btn} onClick={chek18}>check 18</SuperButton></div>
 
             </div>
-            >>>>>>> github/master
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
