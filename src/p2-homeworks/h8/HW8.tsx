@@ -39,12 +39,21 @@ function HW8() {
 
             {/*should work (должно работать)*/}
             <div>{finalPeople} </div>
+<<<<<<< HEAD
             <div className={s.SuperButtonModule}>
                 <div><SuperButton className={s.btn} onClick={sortUp}>sort up</SuperButton></div>
                 <div><SuperButton className={s.btn} onClick={sortDown}>sort down</SuperButton></div>
                 <div><SuperButton className={s.btn} onClick={chek18}>check 18</SuperButton></div>
 
             </div>
+=======
+<div className={s.SuperButtonModule}>
+            <div><SuperButton className={s.btn} onClick={sortUp}>sort up</SuperButton></div>
+            <div><SuperButton className={s.btn} onClick={sortDown}>sort down</SuperButton></div>
+            <div><SuperButton className={s.btn} onClick={chek18}>check 18</SuperButton></div>
+
+        </div>
+>>>>>>> github/master
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
